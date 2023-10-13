@@ -1,0 +1,256 @@
+html{background: #131313;}
+
+#menu{
+
+	width: 100%;
+	height: 80px;
+	background: #3d383d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.shape1{
+
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	left: 50px;
+	width: 35px;
+	height: 35px;
+	top: 27.5px;
+	
+	background: white;
+	border-radius: 50%;
+
+	overflow: hidden;
+
+	transition: all .4s ease-in-out;
+	 
+}
+
+
+
+
+
+.dropContent{
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	
+	  
+
+	  }
+
+
+
+.shape1:hover{
+	background: lightgray;
+	width: 500px;
+	border-radius: 20px;
+	
+}
+
+
+
+.shape1:hover img{
+	opacity: 0;
+}
+
+
+
+.shape1:hover .dropContent{
+	opacity: 1;
+}
+
+
+
+
+
+
+.shape2{
+
+	width: 150px;
+	height: 35px;
+	top: 27.5px;
+	left: 50px;
+	background: white;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+
+}
+
+
+
+
+.shape4{
+
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	top: 27.5px;
+	right: 50px;
+	background: white;
+	border-radius: 50%;
+}
+.shape4:hover{
+	background: lightgray;
+}
+
+
+
+
+
+.shape3{
+
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	top: 27.5px;
+	right: 100px;
+	background: white;
+	border-radius: 50%;
+	transition: all .3s ease-in-out;
+	
+
+
+
+
+}
+.shape3:hover{
+	width: 200px;
+	border-radius: 20px;
+	background: lightgray;
+}
+
+.shape3:hover img{
+	opacity: 0;
+}
+
+
+.iconUser{
+	position: absolute;
+	width: 100%;
+    height: 100%;
+
+}
+
+
+
+#photoinfo{
+
+	width: 60%;
+	height: 980px;
+	margin-left: 20%;
+	display: flex;
+}
+
+.photobox{
+	width: 58%;
+	height:70%;
+
+	
+}
+
+.photo{
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+}
+
+
+.miniphoto{
+	width: 120px;
+	height: 120px;
+	margin-top: 20px;
+}
+
+.miniphoto:hover{
+	opacity: 50%;
+	cursor: pointer;
+}
+
+
+
+.pricebox{
+	margin-left: 20px;
+	background: #f3f3f3;
+	width: 40%;
+	height: 930px;
+	border-radius: 15px;
+	text-align: center;
+	font-family: sans-serif;
+	display: inline-block;
+}
+
+.dp{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+
+#artistName{
+	background: black;
+	color: white;
+	border-radius: 5px;
+}
+
+#info{
+	line-height: 30px;
+	text-align: left;
+	margin-left: 10px;
+}
+
+.otherText{
+	width: 95%;
+	margin-right: 10px;
+}
+
+
+
+.price{
+	font-size: 30px;
+
+
+}
+
+
+.purchase{
+	width: 50%;
+	font-size: 30px;
+
+	margin-left: 25%;
+	border-width:3px; 
+	border-style:solid; 
+	border-color:#FFffff;
+	transition: all .4s ease-in-out;
+	background: darkred;
+	color: white;
+	align-items: center;
+
+	
+}
+
+
+.purchase:hover{
+	background: black;
+	color: white;
+	cursor: pointer;
+
+	
+}
+
+
+
+.aboutPhoto{
+	width: 98%;
+}
+
+
+ .footer{
+ 	width: 100%;
+ }
